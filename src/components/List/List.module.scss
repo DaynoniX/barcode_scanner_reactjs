@@ -1,0 +1,49 @@
+.container{
+  position: absolute;
+  background-color: #ffffff;
+  z-index: 10;
+  max-height: 220px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  border-radius: 10px 10px 0 0;
+  padding: 10px 20px 0;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.counter{
+  font-size: 16px;
+  font-weight: 500;
+}
+.clear-btn{
+
+}
+.list{
+  overflow-y: auto;
+  max-height: 155px;
+  display: flex;
+  flex-direction: column;
+}
+.search{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #000;
+  position: sticky;
+  bottom: 40px;
+  left: calc( 100% - 40px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  i{
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    mask-image: url("data:image/svg+xml;charset=utf8,%3C?xml version='1.0' encoding='UTF-8'?%3E%3Csvg width='18px' height='19px' viewBox='0 0 18 19' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E02BE34FE-6CAF-4B15-98ED-B6F7B8C83484%3C/title%3E%3Cg id='SYS-Admin' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Sys-admin-1' transform='translate(-897.000000, -45.000000)' fill='%236D71F9'%3E%3Cg id='Group-2' transform='translate(434.000000, 31.000000)'%3E%3Cpath d='M470.3333,14.666644 C474.19934,14.666644 477.3332,17.800558 477.3332,21.666742 C477.3332,23.3239582 476.757273,24.8466822 475.794631,26.0456692 L480.53568,30.787945 L479.1212,32.202001 L474.331614,27.4129555 C473.198117,28.2030931 471.819834,28.666441 470.3333,28.666441 C466.46728,28.666441 463.3334,25.532506 463.3334,21.666742 C463.3334,17.800558 466.46728,14.666644 470.3333,14.666644 Z M470.3333,16.666663 C467.57194,16.666663 465.33334,18.905368 465.33334,21.666742 C465.33334,24.428137 467.57194,26.666821 470.3333,26.666821 C473.09468,26.666821 475.33328,24.428137 475.33328,21.666742 C475.33328,18.905368 473.09468,16.666663 470.3333,16.666663 Z' id='search'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+}
+
